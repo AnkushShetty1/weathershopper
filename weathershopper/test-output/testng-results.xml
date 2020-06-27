@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[6 °C]]>
+    </line>
+    <line>
+      <![CDATA[Test validGetTemp is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Moisturizer is choosed]]>
+    </line>
+    <line>
+      <![CDATA[Test validChooseProduct is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Cart products are matching correctly]]>
+    </line>
+    <line>
+      <![CDATA[Test validCheckout is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Test validPaymentDetails is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Payment is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Test verifyConfirmMessage is PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35079" started-at="2020-06-26T18:52:34Z" finished-at="2020-06-26T18:53:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35079" started-at="2020-06-26T18:52:34Z" finished-at="2020-06-26T18:53:09Z">
+      <class name="script.ValidTestCase">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="initialization" is-config="true" duration-ms="13780" started-at="2020-06-26T18:52:34Z" finished-at="2020-06-26T18:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="validGetTemp()[pri:1, instance:script.ValidTestCase@3ffc5af1]" name="validGetTemp" duration-ms="345" started-at="2020-06-26T18:52:48Z" finished-at="2020-06-26T18:52:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[6 °C]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validGetTemp -->
+        <test-method status="PASS" signature="validateEachMethod(org.testng.ITestResult)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="validateEachMethod" is-config="true" duration-ms="2" started-at="2020-06-26T18:52:48Z" finished-at="2020-06-26T18:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validGetTemp status=SUCCESS method=ValidTestCase.validGetTemp()[pri:1, instance:script.ValidTestCase@3ffc5af1] output=6 °C]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test validGetTemp is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachMethod -->
+        <test-method status="PASS" signature="validChooseProduct()[pri:2, instance:script.ValidTestCase@3ffc5af1]" name="validChooseProduct" duration-ms="7442" started-at="2020-06-26T18:52:48Z" finished-at="2020-06-26T18:52:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Moisturizer is choosed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validChooseProduct -->
+        <test-method status="PASS" signature="validateEachMethod(org.testng.ITestResult)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="validateEachMethod" is-config="true" duration-ms="0" started-at="2020-06-26T18:52:55Z" finished-at="2020-06-26T18:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validChooseProduct status=SUCCESS method=ValidTestCase.validChooseProduct()[pri:2, instance:script.ValidTestCase@3ffc5af1] output=Moisturizer is choosed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test validChooseProduct is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachMethod -->
+        <test-method status="PASS" signature="validCheckout()[pri:3, instance:script.ValidTestCase@3ffc5af1]" name="validCheckout" duration-ms="1676" started-at="2020-06-26T18:52:55Z" finished-at="2020-06-26T18:52:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart products are matching correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validCheckout -->
+        <test-method status="PASS" signature="validateEachMethod(org.testng.ITestResult)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="validateEachMethod" is-config="true" duration-ms="0" started-at="2020-06-26T18:52:57Z" finished-at="2020-06-26T18:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCheckout status=SUCCESS method=ValidTestCase.validCheckout()[pri:3, instance:script.ValidTestCase@3ffc5af1] output=Cart products are matching correctly]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test validCheckout is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachMethod -->
+        <test-method status="PASS" signature="validPaymentDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:script.ValidTestCase@3ffc5af1]" name="validPaymentDetails" duration-ms="3167" started-at="2020-06-26T18:53:02Z" data-provider="getTestData" finished-at="2020-06-26T18:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankush@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555 5555 5555 4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[625]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[659]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[560008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPaymentDetails -->
+        <test-method status="PASS" signature="validateEachMethod(org.testng.ITestResult)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="validateEachMethod" is-config="true" duration-ms="0" started-at="2020-06-26T18:53:05Z" finished-at="2020-06-26T18:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validPaymentDetails status=SUCCESS method=ValidTestCase.validPaymentDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:script.ValidTestCase@3ffc5af1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test validPaymentDetails is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachMethod -->
+        <test-method status="PASS" signature="verifyConfirmMessage()[pri:5, instance:script.ValidTestCase@3ffc5af1]" name="verifyConfirmMessage" duration-ms="3693" started-at="2020-06-26T18:53:05Z" finished-at="2020-06-26T18:53:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Payment is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmMessage -->
+        <test-method status="PASS" signature="validateEachMethod(org.testng.ITestResult)[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="validateEachMethod" is-config="true" duration-ms="0" started-at="2020-06-26T18:53:08Z" finished-at="2020-06-26T18:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyConfirmMessage status=SUCCESS method=ValidTestCase.verifyConfirmMessage()[pri:5, instance:script.ValidTestCase@3ffc5af1] output=Payment is successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test verifyConfirmMessage is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachMethod -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:script.ValidTestCase@3ffc5af1]" name="exit" is-config="true" duration-ms="468" started-at="2020-06-26T18:53:08Z" finished-at="2020-06-26T18:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- script.ValidTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
